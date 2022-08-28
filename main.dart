@@ -6,7 +6,8 @@ void main() {
         Colors[x].toString().contains("b")) {
       print(Colors[x].toString().toUpperCase());
     } else {
-      print(Colors[x] + "# sorry this color it's not start with a or b");
+      String l = Colors[x].length.toString();
+      print(Colors[x] + " # sorry this color $l it's not start with a or b");
     }
   }
 }
